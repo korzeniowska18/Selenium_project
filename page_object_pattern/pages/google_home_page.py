@@ -1,8 +1,10 @@
-class AmisResultPage:
+class GoogleHomePage:
 
     def __init__(self, driver):
-         self.driver = driver
-         self.search_results_xpath = "//a[@class='prodname f-row']"
+        self.driver = driver
+        self.search_input_name = 'q'
+        self.search_button_name = 'btnK'
 
-    def open_first_product(self):
-        self.driver.find_element_by_xpath(self.search_results_xpath).click()
+    def search_in_google(self, text):
+        self.driver.find_element_by_name(self.search_input_name).send_keys(text)
+        self.driver.find_element_by_name(self.search_button_name).click()
