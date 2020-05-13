@@ -1,2 +1,7 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
+from page_object_pattern.pages.google_home_page import GoogleHomePage
+from page_object_pattern.pages.google_result_page import GoogleResultPage
+from page_object_pattern.pages.amis_home_page import AmisHomePage
+from page_object_pattern.pages.amis_result_page import AmisResultPage
+import pytest
