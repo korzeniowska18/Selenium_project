@@ -4,7 +4,7 @@ I. Przypadek testowy:
 
 ID: 001
 
-Tytuł: Rejestracja nowego użytkownika nie wprowadzając żadnych danych
+Tytuł: Rejestracja nowego użytkownika na stronie internetowej sklepu nie wprowadzając żadnych danych
 
 Środowisko: Chrome wersja 80.0.3987.163, PyCharm 2019.3.3
 
