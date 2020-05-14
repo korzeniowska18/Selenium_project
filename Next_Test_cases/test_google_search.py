@@ -21,3 +21,7 @@ class TestGoogleSearch:
         home_page.search_in_google("Apple")
         result_page = GoogleResultPage(self.driver)
         result_page.open_first_result()
+        assert self.driver.title == "Apple (Polska)"
+        print("Title of this page: " + self.driver.title)
+        print("Assertion is correct")
+        print("Test case 'TestGoogleSearch' completed")
