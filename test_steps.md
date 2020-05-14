@@ -32,14 +32,23 @@ Precondition: Open browser.
 STEPS:
 
 1.Open web page „https:google.com”
+
 2.Click in the "SEARCH" field
+
 3. Input keyword "APPLE" 
+
 4. Click "SEARCH BUTTON"
+
 5. Select first found link
+
 6. Open this page
+
 7. Get PAGE TITLE - "Apple(Polska)"
+
 8. Assert PAGE TITLE
+
 9. Confirm that assertion done correctly
+
 10. Close browser
 
 
@@ -56,13 +65,21 @@ Precondition: Open browser. The user is not logged.
 STEPS:
 
 1.Open web page „https://centrumamis.pl/pl”
+
 2.Click in the "SEARCH" field
+
 3. Input keyword "WAGA" 
+
 4. Click "SEARCH BUTTON"
+
 5. Select first found product
+
 6. Add first found product in the cart
+
 7. Get "ALERT MESSAGE ABOUT ADDING THE PRODUCT TO THE CART"(Alert message is: "Produkt dodany do koszyka.")
+
 8. Confirm taht ALERT MESSAGE displayed correctly on the web page
+
 9. Close browser
 
 
