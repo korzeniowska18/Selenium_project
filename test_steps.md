@@ -9,7 +9,7 @@ Environment: Chrome version 80.0.3987.163, PyCharm 2019.3.3
 Precondition: Open browser. The user is not logged.
 
 
-Steps:
+STEPS:
 
 1. Open web page „https://centrumamis.pl/pl”
 2. Click "Registartion"
@@ -29,6 +29,8 @@ Environment: Chrome version 80.0.3987.163, PyCharm 2019.3.3
 
 Precondition: Open browser. 
 
+STEPS:
+
 1.Open web page „https:google.com”
 2.Click in the "SEARCH" field
 3. Input keyword "APPLE" 
@@ -41,9 +43,6 @@ Precondition: Open browser.
 10. Close browser
 
 
-
-
-
 III.Test Case - Test Search Product
 
 ID: 003
@@ -53,6 +52,8 @@ Title: Search and add the product to the cart on the web page of the shop CENTRU
 Environment: Chrome version 80.0.3987.163, PyCharm 2019.3.3
 
 Precondition: Open browser. The user is not logged.
+
+STEPS:
 
 1.Open web page „https://centrumamis.pl/pl”
 2.Click in the "SEARCH" field
