@@ -1,23 +1,8 @@
 # Selenium_project
 
-I. Przypadek testowy:
+This project includes some Test Cases using Selenium Web Driver. 
 
-ID: 001
+In the folder "First Test cases" you can find my first steps with Selenium and case about Registration of the new user with empty data on the web page. There are some simple examples. 
 
-Tytuł: Rejestracja nowego użytkownika na stronie internetowej sklepu nie wprowadzając żadnych danych
-
-Środowisko: Chrome wersja 80.0.3987.163, PyCharm 2019.3.3
-
-Warunek wstępny: Uruchomiona przeglądarka. Użytkownik nie jest zalogowany
-
-
-I.Test Case
-
-ID: 001
-
-Title: Registration of the new user without input any required data on the shop web page. 
-
-Environment: Chrome version 80.0.3987.163, PyCharm 2019.3.3
-
-Precondition: Open browser. The user is not logged. 
+In the folder "Test Cases with Page Objects" you can find my next test cases abou searching on the web page, also about adding product to the cart and assertion of the alert message. In these cases I used Page Objects with some parts of the case and that generally test case could be more compact. Every Page includes some denition which we can to use more times in next cases. This is useful. 
 
