@@ -44,7 +44,7 @@ Precondition: Open browser.
 
 
 
-II.Test Case - Test Search Product
+III.Test Case - Test Search Product
 
 ID: 003
 
