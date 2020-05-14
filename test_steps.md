@@ -31,9 +31,9 @@ Precondition: Open browser.
 
 STEPS:
 
-1.Open web page „https:google.com”
+ 1.Open web page „https:google.com”
 
-2.Click in the "SEARCH" field
+ 2.Click in the "SEARCH" field
 
 3. Input keyword "APPLE" 
 
@@ -64,9 +64,9 @@ Precondition: Open browser. The user is not logged.
 
 STEPS:
 
-1.Open web page „https://centrumamis.pl/pl”
+ 1.Open web page „https://centrumamis.pl/pl”
 
-2.Click in the "SEARCH" field
+ 2.Click in the "SEARCH" field
 
 3. Input keyword "WAGA" 
 
