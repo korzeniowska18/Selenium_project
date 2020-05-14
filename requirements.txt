@@ -4,4 +4,7 @@ from page_object_pattern.pages.google_home_page import GoogleHomePage
 from page_object_pattern.pages.google_result_page import GoogleResultPage
 from page_object_pattern.pages.amis_home_page import AmisHomePage
 from page_object_pattern.pages.amis_result_page import AmisResultPage
+from page_object_pattern.pages.amis_search_page import AmisSearchPage
+from page_object_pattern.pages.amis_add_to_cart_page import AmisAddToCartPage
+from page_object_pattern.pages.amis_alert_message_page import AmisAlertMessagePage
 import pytest
