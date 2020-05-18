@@ -14,7 +14,7 @@ Appearing the error about mistakes in the registartion form.
 
 Summary:
 
-Registration is impossible without input any data. In thsi point registartion works correctly. 
+Registration is impossible without input any data. In this point registartion works correctly. 
 
 II.Test Case - Test Google Search
 
