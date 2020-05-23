@@ -12,7 +12,6 @@ def test_billing_address_update():
     driver.find_element(By.ID, "pass_input_long").send_keys("12345678")
     driver.find_element(By.ID, "pass_input_long").send_keys(Keys.ENTER)
     driver.find_element(By.XPATH, "//a[@class='myaccount']/span").click()
-    #driver.find_element_by_xpath("/html/body/div[1]/div[3]/div/div/div[2]/div/div[2]/a[3]/span").click()
     driver.find_element(By.XPATH, "//a[@class='editaddresses btn spanhover']/span").click()
     driver.find_element(By.XPATH, "//a[@class='edit btn spanhover']/span").click()
     driver.find_element(By.ID, "input_phone").clear()
