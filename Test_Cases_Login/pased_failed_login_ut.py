@@ -70,6 +70,23 @@ class TestLoginAccount(unittest.TestCase):
         assert error_message.text=="Niepoprawne dane logowania."
         print("Assertion confirmed that User not logged if used not registered email, login failed.")
         print("Test Case №3 'testLoginFailedNotRegisteredEmail' completed.")
+        
+    def testLoginFailedWrongPassword(self):
+        driver = self.driver
+        open_login_page = WebDriverWait(driver, 10) \
+            .until(EC.element_to_be_clickable((By.XPATH, "//a[@class='login']")))
+        open_login_page.click()
+        username_input = driver.find_element_by_id("mail_input_long")
+        username_input.send_keys("tester@example.com")
+        wrong_password = str(random.randint(0, 1000)) + "125671234"
+        password_input = driver.find_element(By.ID, "pass_input_long")
+        password_input.send_keys(wrong_password)
+        password_input.send_keys(Keys.ENTER)
+        error_message = driver.find_element(By.XPATH, "//p[text()='Niepoprawne dane logowania.']")
+        print(f"Appears error message about incorrect login details: {error_message.text}")
+        assert error_message.text == "Niepoprawne dane logowania."
+        print("Assertion confirmed that User not logged if input wrong password, login failed.")
+        print("Test Case №4 'testLoginFailedWrongPassword' completed.")
 
 
 
