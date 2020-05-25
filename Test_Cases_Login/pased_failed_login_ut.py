@@ -1,38 +1,22 @@
 import unittest
-
 from selenium import webdriver
-
 from time import sleep
-
 from selenium.webdriver.support.ui import WebDriverWait
-
 from selenium.webdriver.support import expected_conditions as EC
-
 from selenium.webdriver.common.by import By
-
 from selenium.webdriver.common.keys import Keys
-
 import random
-
 
 class TestLoginAccount(unittest.TestCase):
 
 
 
     def setUp(self):
-
         self.driver = webdriver.Chrome()
-
         self.driver.get("https://centrumamis.pl/")
-
         self.driver.maximize_window()
 
-
-
-
-
     def tearDown(self):
-
         self.driver.quit()
 
 
