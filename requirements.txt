@@ -8,3 +8,10 @@ from page_object_pattern.pages.amis_search_page import AmisSearchPage
 from page_object_pattern.pages.amis_add_to_cart_page import AmisAddToCartPage
 from page_object_pattern.pages.amis_alert_message_page import AmisAlertMessagePage
 import pytest
+import unittest
+from time import sleep
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+import random
