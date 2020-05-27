@@ -4,6 +4,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
+#these tests were done using PyCharm
+
 
 def test_log_in_passed():
     driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -14,7 +16,6 @@ def test_log_in_passed():
     driver.find_element_by_id("mail_input_long").send_keys("tester@example.com")
     driver.find_element(By.ID, "pass_input_long").send_keys("12345678")
     driver.find_element(By.ID, "pass_input_long").send_keys(Keys.ENTER)
-    #driver.find_element(By.XPATH, "//button[@class='btn btn-red login']").click()
     assert driver.find_element(By.LINK_TEXT, "Wyloguj").is_displayed()
     print("Assertion confirmed that User logged successful.")
     print("Test Case TestLoginPassed completed.")
