@@ -1,5 +1,3 @@
-
-
 from selenium import webdriver
 from page_object_pattern.pages.amis_home_page import AmisHomePage
 from page_object_pattern.pages.amis_result_page import AmisResultPage
