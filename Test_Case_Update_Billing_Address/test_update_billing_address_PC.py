@@ -3,6 +3,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
+#this test was done using PyCharm
+
 def test_billing_address_update():
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.maximize_window()
