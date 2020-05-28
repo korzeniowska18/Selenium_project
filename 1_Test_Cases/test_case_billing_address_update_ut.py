@@ -26,7 +26,7 @@ STEPS:
 15. Input in field "MIASTO" CITY
 16. Input in field "KRAJ" COUNTRY
 17. Click "ZAPISZ" and save it
-18. Assert appered alert message "Adres został zapisany." which confirms that address was saved
+18. Assert appeared alert message "Adres został zapisany." which confirms that address was saved
 
 Result:
 
