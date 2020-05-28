@@ -77,12 +77,12 @@ STEPS:
 
 Result:
 
-After login with incorrect email without "@" and correct password User not logged to Account. Login failed.
-Appeared error message: "Niepoprawne dane logowania." Assertion confirmed that User not logged.
+After login with wrong email which was not registered on this page also is not really and correct password User not logged to Account. 
+Login failed. Appeared error message: "Niepoprawne dane logowania." Assertion confirmed that User not logged.
 
 Expected result(behaviour):
 
-After login with incorrect email without "@" and correct password Login should be failed.
+After login with wrong email which was not registered on this page also is not really and correct password Login should be failed.
 Also should appear appropriate error message about wrong login details. 
 
 Summary:
@@ -107,12 +107,12 @@ STEPS:
 
 Result:
 
-After login with incorrect email without "@" and correct password User not logged to Account. Login failed.
+After login with correct email and wrong password User not logged to Account. Login failed.
 Appeared error message: "Niepoprawne dane logowania." Assertion confirmed that User not logged.
 
 Expected result(behaviour):
 
-After login with incorrect email without "@" and correct password Login should be failed.
+After login with correct email and wrong password Login should be failed.
 Also should appear appropriate error message about wrong login details. 
 
 Summary:
