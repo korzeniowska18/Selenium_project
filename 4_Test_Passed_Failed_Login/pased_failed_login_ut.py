@@ -34,7 +34,7 @@ class TestLoginAccount(unittest.TestCase):
         print(f"After passed login to Account appears tab: {confirmation_about_login.text}")
         greeting_for_logged_account = driver.find_element(By.XPATH, '//p[text()="Witaj "]')
         print(f"After passed login to Account appears greeting: {greeting_for_logged_account.text}")
-        assert greeting_for_logged_account.text=="Witaj TesterAutomatyczny"
+        assert greeting_for_logged_account.text=="Witaj Tester Automatyczny"
         print("Assertion confirmed that User logged successful.")
         print("Test Case №1 'TestLoginPassed' completed.")
 
