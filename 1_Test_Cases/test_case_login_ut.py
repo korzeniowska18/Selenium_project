@@ -61,11 +61,65 @@ Login with incorrect email without "@" and correct password failed.
 Appeared error message about wrong login details. 
 This is appropriate behavior but would be better if error will be with more details.
 When error will indicate what exactly is wrong. 
-For example: the email address that you've entered does not match any account. Please create Account.
+For example: The email address that you've entered does not match any account. Please create Account.
 This could be more usefull for User. 
 
 Test Case №3 'testLoginFailedNotRegisteredEmail'
 
+STEPS:
 
+1. Open web page „https://centrumamis.pl/pl”
+2. Open LOGIN PAGE by click on "ZALOGUJ SIĘ"
+3. Input in E-MAIL field wrong email which was not registered on this page and is not really
+4. Input in PASSWORD field correct password
+5. Click button "ZALOGUJ SIĘ"
+6. Confirm by assertion that User not Logged because appeared error message: "Niepoprawne dane logowania."
 
+Result:
 
+After login with incorrect email without "@" and correct password User not logged to Account. Login failed.
+Appeared error message: "Niepoprawne dane logowania." Assertion confirmed that User not logged.
+
+Expected result(behaviour):
+
+After login with incorrect email without "@" and correct password Login should be failed.
+Also should appear appropriate error message about wrong login details. 
+
+Summary:
+
+Login with wrong email which was not registered on this page also is not really and correct password failed. 
+Appeared error message about wrong login details. 
+This is appropriate behavior but would be better if error will be with more details.
+When error will indicate what exactly is wrong. 
+For example: The email address that you've entered does not match any account. Please create Account.
+This could be more usefull for User. 
+
+Test Case №4 'testLoginFailedWrongPassword'
+
+STEPS:
+
+1. Open web page „https://centrumamis.pl/pl”
+2. Open LOGIN PAGE by click on "ZALOGUJ SIĘ"
+3. Input in E-MAIL field correct email
+4. Input in PASSWORD field wrong password
+5. Click button "ZALOGUJ SIĘ"
+6. Confirm by assertion that User not Logged because appeared error message: "Niepoprawne dane logowania."
+
+Result:
+
+After login with incorrect email without "@" and correct password User not logged to Account. Login failed.
+Appeared error message: "Niepoprawne dane logowania." Assertion confirmed that User not logged.
+
+Expected result(behaviour):
+
+After login with incorrect email without "@" and correct password Login should be failed.
+Also should appear appropriate error message about wrong login details. 
+
+Summary:
+
+Login with correct email and wrong password failed. 
+Appeared error message about wrong login details. 
+This is appropriate behavior but would be better if error will be with more details.
+When error will indicate what exactly is wrong. 
+For example: "The password that you've entered is incorrect. Forgot password?" Also add link for reset password in this error.
+This could be more usefull for User. 
