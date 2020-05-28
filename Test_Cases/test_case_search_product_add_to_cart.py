@@ -2,7 +2,7 @@ III.Test Case - Test Search Product
 
 ID: 003
 
-Title: Search and add the product to the cart on the web page of the shop CENTRUMAMIS.PL
+Title: Search and add the product to the cart on the web page of the store CENTRUMAMIS.PL
 
 Environment: Chrome version 80.0.3987.163, PyCharm 2019.3.3
 Precondition: Open browser. The user is not logged.
@@ -21,7 +21,7 @@ STEPS:
 
 Result:
 
-Searching product and adding to the cart on the web page of the shop works in good way. 
+Searching product and adding to the cart on the web page of the store works in good way. 
 Alert message with information that product added in cart appers correctly. 
 
 Expected result(behaviour):
