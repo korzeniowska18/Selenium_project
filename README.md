@@ -1,15 +1,17 @@
 ## Projekt Selenium
 
+![Selenium Web Driver](./image/images.jpg)
+
 PRACA ZALICZENIOWA z automatyzacji funkcjonalnych aplikacji internetowych z użyciem Selenium Web Driver w Wyższej Szkole Bankowej we Wrocławiu.
 
 Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności internetowego sklepu zielarskiego "CENTRUMAMIS.PL".
 
 ## Repozytorium zawiera cztery przypadki testowe wykonane z użyciem Selenium Web Driver:
 
-* [Aktualizacja danych w profilu płatności użytkownika](#Aktualizacja danych w profilu płatności użytkownika)
-* [Wyszukiwanie w Google według słowa kluczowego](#[Wyszukiwanie w Google według słowa kluczowego)
+* [Aktualizacja danych w profilu płatności użytkownika](#Aktualizacja-danych-w-profilu-płatności-użytkownika)
+* [Wyszukiwanie w Google według słowa kluczowego](#[Wyszukiwanie-w-Google-według-słowa-kluczowego)
 * [Wyszukiwanie produktu używając filtrów i dodawanie produktu do koszyka](#Wyszukiwanie-produktu-używając-filtrów-i-dodawanie-produktu-do-koszyka)
-* [Poprawne i nieudane logowanie na konto użytkownika](#Poprawne i nieudane logowanie na konto użytkownika)
+* [Poprawne i nieudane logowanie na konto użytkownika](#Poprawne-i-nieudane-logowanie-na-konto-użytkownika)
 
 Testy, które wykonałam były oparte o przypadki testowe zawarte w folderze "Test Cases".
 
@@ -17,7 +19,6 @@ Folder "Requirements" zawiera wykorzystane i wymagane biblioteki Selenium do wyk
 
 Każdy Test case zawiera nie tylko poszczególnie opisane kroki przypadku testowego oraz rzeczywiste i oczekiwane wyniki, wraz z podsumowaniem.
 
-![Selenium Web Driver](./image/images.jpg)
 
 # Selenium_project
 
