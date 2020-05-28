@@ -4,7 +4,7 @@
 
 PRACA ZALICZENIOWA z automatyzacji funkcjonalnych aplikacji internetowych z użyciem Selenium Web Driver w Wyższej Szkole Bankowej we Wrocławiu.
 
-Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności internetowego sklepu zielarskiego "CENTRUMAMIS.PL".
+Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności internetowego sklepu zielarskiego "CENTRUMAMIS.PL" oraz wyszukiwanie w Google.
 
 ## Repozytorium zawiera cztery przypadki testowe wykonane z użyciem Selenium Web Driver:
 
