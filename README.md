@@ -15,6 +15,11 @@ Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności interneto
 
 Testy, które wykonałam były oparte o przypadki testowe zawarte w folderze "Test Cases".
 
+## Przypadki testowe wykonane z wykorzystaniem wzorca Page Object Pattern:
+
+* [Wyszukiwanie w Google według słowa kluczowego](#[Wyszukiwanie-w-Google-według-słowa-kluczowego)
+* [Wyszukiwanie produktu używając filtrów i dodawanie produktu do koszyka](#Wyszukiwanie-produktu-używając-filtrów-i-dodawanie-produktu-do-koszyka)
+
 Folder "Requirements" zawiera wykorzystane i wymagane biblioteki Selenium do wykonania testów oraz ścieżki do Page Objects.
 
 Każdy Test case zawiera nie tylko poszczególnie opisane kroki przypadku testowego oraz rzeczywiste i oczekiwane wyniki, wraz z podsumowaniem.
