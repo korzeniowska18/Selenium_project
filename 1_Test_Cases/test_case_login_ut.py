@@ -1,6 +1,6 @@
-IV.Test Case - Passed and Failed Login to User Account
+II.Test Case - Passed and Failed Login to User Account
 
-ID: 004
+ID: 002
 
 Title: Passed and Failed Login to User Account on the web page of the store CENTRUMAMIS.PL
 
