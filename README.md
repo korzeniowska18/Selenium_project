@@ -17,8 +17,9 @@ Testy, które wykonałam były oparte o przypadki testowe zawarte w folderze "Te
 
 ## Przypadki testowe wykonane z wykorzystaniem wzorca Page Object Pattern:
 
-* [Wyszukiwanie w Google według słowa kluczowego](#[Wyszukiwanie-w-Google-według-słowa-kluczowego)
 * [Wyszukiwanie produktu używając filtrów i dodawanie produktu do koszyka](#Wyszukiwanie-produktu-używając-filtrów-i-dodawanie-produktu-do-koszyka)
+* [Wyszukiwanie w Google według słowa kluczowego](#[Wyszukiwanie-w-Google-według-słowa-kluczowego)
+
 
 Folder "Requirements" zawiera wykorzystane i wymagane biblioteki Selenium do wykonania testów oraz ścieżki do Page Objects.
 
