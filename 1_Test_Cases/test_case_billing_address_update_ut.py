@@ -19,13 +19,14 @@ STEPS:
 8. Click "EDIT" button 
 9. Input in field "IMIĘ" FIRST NAME
 10. Input in field "NAZWISKO" LAST NAME
-11. Input in field "TELEFON" PHONE NUMBER
-12. Input in field "ULICA i NUMER DOMU" STREET AND HOUSE NUMBER
-13. Input in field "KOD POCZTOWY" ZIP CODE
-14. Input in field "MIASTO" CITY
-15. Input in field "KRAJ" COUNTRY
-16. Click "ZAPISZ" and save it
-17. Assert appered alert message "Adres został zapisany." which confirms that address was saved
+11. Input in field "NAZWA FIRMY" COMPANY NAME
+12. Input in field "TELEFON" PHONE NUMBER
+13. Input in field "ULICA i NUMER DOMU" STREET AND HOUSE NUMBER
+14. Input in field "KOD POCZTOWY" ZIP CODE
+15. Input in field "MIASTO" CITY
+16. Input in field "KRAJ" COUNTRY
+17. Click "ZAPISZ" and save it
+18. Assert appered alert message "Adres został zapisany." which confirms that address was saved
 
 Result:
 
