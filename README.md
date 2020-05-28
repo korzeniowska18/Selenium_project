@@ -9,9 +9,9 @@ Przygotowałam automatyczne testy dotyczące ważnych funkcjonalności interneto
 ## Repozytorium zawiera cztery przypadki testowe wykonane z użyciem Selenium Web Driver:
 
 * [Aktualizacja danych w profilu płatności użytkownika](#Aktualizacja-danych-w-profilu-płatności-użytkownika)
-* [Wyszukiwanie w Google według słowa kluczowego](#[Wyszukiwanie-w-Google-według-słowa-kluczowego)
-* [Wyszukiwanie produktu używając filtrów i dodawanie produktu do koszyka](#Wyszukiwanie-produktu-używając-filtrów-i-dodawanie-produktu-do-koszyka)
 * [Poprawne i nieudane logowanie na konto użytkownika](#Poprawne-i-nieudane-logowanie-na-konto-użytkownika)
+* [Wyszukiwanie produktu używając filtrów i dodawanie produktu do koszyka](#Wyszukiwanie-produktu-używając-filtrów-i-dodawanie-produktu-do-koszyka)
+* [Wyszukiwanie w Google według słowa kluczowego](#[Wyszukiwanie-w-Google-według-słowa-kluczowego)
 
 Testy, które wykonałam były oparte o przypadki testowe zawarte w folderze "Test Cases".
 
