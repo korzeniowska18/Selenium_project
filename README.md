@@ -35,8 +35,8 @@ $ sudo apt install python3-pip
 Pakiet Selenium do współpracy z przeglądarką potrzebuje także sterowników
 ```
 Linki do wybranych sterowników:
-
-Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads
+```
+Chrome: *[https://sites.google.com/a/chromium.org/chromedriver/downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 Opera: https://github.com/operasoftware/operachromiumdriver/releases
 Firefox: https://github.com/mozilla/geckodriver/releases
 Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/
