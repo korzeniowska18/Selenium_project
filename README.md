@@ -27,39 +27,36 @@ Każdy Test case zawiera nie tylko poszczególnie opisane kroki przypadku testow
 
 
 ## Przed uruchamieniem testu przygotowujemy środowisko:
-
-pip3 --version
-
-sudo apt install python3-pip
+```
+$ pip3 --version
+$ sudo apt install python3-pip
+```
 
 Pakiet Selenium do współpracy z przeglądarką potrzebuje także sterowników
-
+```
 Linki do wybranych sterowników:
 
 Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads
-
 Opera: https://github.com/operasoftware/operachromiumdriver/releases
-
 Firefox: https://github.com/mozilla/geckodriver/releases
-
 Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/
-
 Internet Explorer:(Windows)https://selenium-release.storage.googleapis.com/index.html
-
+```
 • Firefox korzysta ze sterownika o nazwie geckodriver. 
 Po ściągnięciu archiwum dostosowanego do architektury naszego procesora oraz systemu operacyjnego,
 rozpakowujemy je:
-
-tar -xvf geckodriver-v0.26.0-linux64.tar.gz
-
+```
+$ tar -xvf geckodriver-v0.26.0-linux64.tar.gz
+```
 Następnie przenosimy rozpakowany plik do katalogu /usr/local/bin/ :
 
-mv geckodriver /usr/local/bin
-
+```
+$ mv geckodriver /usr/local/bin
+```
 ## Testy uruchomiamy za pomocą komendy:
-
-python3 NAZWA_PLIKU_Z_TESTEM.py
-
+```
+$ python3 NAZWA_PLIKU_Z_TESTEM.py
+```
 # Selenium_project
 
 This project includes four Test Cases using Selenium Web Driver. 
