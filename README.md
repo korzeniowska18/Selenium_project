@@ -38,7 +38,7 @@ Linki do wybranych sterowników:
 ```
 * [Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 * [Opera: https://github.com/operasoftware/operachromiumdriver/releases](https://github.com/operasoftware/operachromiumdriver/releases)
-* [Firefox: https://github.com/mozilla/geckodriver/releases](Firefox: https://github.com/mozilla/geckodriver/releases)
+* [Firefox: https://github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases)
 * [Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/](https://webkit.org/blog/6900/webdriver-support-in-safari-10/)
 * [Internet Explorer:(Windows)https://selenium-release.storage.googleapis.com/index.html](https://selenium-release.storage.googleapis.com/index.html)
 ```(
