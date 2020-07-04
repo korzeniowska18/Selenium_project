@@ -37,14 +37,19 @@ Pakiet Selenium do współpracy z przeglądarką potrzebuje także sterowników
 Linki do wybranych sterowników:
 
 Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads
+
 Opera: https://github.com/operasoftware/operachromiumdriver/releases
+
 Firefox: https://github.com/mozilla/geckodriver/releases
+
 Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+
 Internet Explorer:(Windows)https://selenium-release.storage.googleapis.com/index.html
 
-• Firefox korzysta ze sterownika o nazwie geckodriver. Po ściągnięciu archiwum
-dostosowanego do architektury naszego procesora oraz systemu operacyjnego,
+• Firefox korzysta ze sterownika o nazwie geckodriver. 
+Po ściągnięciu archiwum dostosowanego do architektury naszego procesora oraz systemu operacyjnego,
 rozpakowujemy je:
+
 tar -xvf geckodriver-v0.26.0-linux64.tar.gz
 
 Następnie przenosimy rozpakowany plik do katalogu /usr/local/bin/ :
